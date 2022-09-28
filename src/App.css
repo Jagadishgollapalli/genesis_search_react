@@ -1,0 +1,45 @@
+.App {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(47, 47, 244);
+}
+
+p{
+  margin: 10px ;
+  font-weight: lighter;
+}
+
+.data-body{
+  flex: 100%;
+}
+.user-body{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.no-data{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+.csv{
+  color: white;
+  text-decoration: none;
+}
+.column-1 {
+  flex: 33.33%;
+  padding: 10px;
+}
+.column-2 {
+  /* flex: 33.33%; */
+  padding: 10px;
+  margin: 40px 10px 0 40px;
+}
+.column-3 {
+  /* flex: 33.33%; */
+  padding: 10px;
+  margin: 40px 100px 0 40px;
+}
+.container {
+   display: flex;
+}
